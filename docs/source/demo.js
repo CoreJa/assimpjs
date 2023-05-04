@@ -79,6 +79,7 @@ window.onload = function () {
 						});
 						resultDiv.style.display = 'block';
 						resultDiv.appendChild (formatter.render ());
+						document.getElementById('res').innerHTML = JSON.stringify(result);
 					});
 				}, 10);
 			}
